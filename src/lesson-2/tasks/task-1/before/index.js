@@ -1,7 +1,6 @@
 import { findString } from '../after';
 
-const text =
-    'There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle.';
+const text ='There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle.';
 
 const pattern = /is a miracle/y;
 

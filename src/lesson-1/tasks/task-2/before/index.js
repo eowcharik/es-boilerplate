@@ -60,3 +60,8 @@ console.log(all);
 const filtered = filter(function (item) {
     return item.age > 20 && item.sex === 'male'
 })
+
+console.log(filtered)
+function  filter(fn) {
+    return getEntities().filter(fn)
+}
